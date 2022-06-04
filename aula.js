@@ -1,20 +1,13 @@
-// realiza uma tarefa, não devolve nada
-function dizerNome(){
-    console.log('murilo');
+let i = 0
+do {
+  console.log('Digitando! ' ,i);
+  i++
+}while(i < 10 )
 
-
-};
-
-dizerNome();
-// Faz um cálculo ou operação e retorna algo
-function MultiplicarValor(valor){
-  return valor * 2;
+const pessoa = {
+  nome:'Murilo',
+  idade :17
 
 };
 
-// console.log(MultiplicarValor(10));
-
-
-let resultado = MultiplicarValor(5)
-
-console.log(MultiplicarValor)
+for (let chave in pessoa )
